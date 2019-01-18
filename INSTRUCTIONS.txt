@@ -16,3 +16,11 @@ Search function:
 2. Result page displays more than 5 results
 3. 1st search result has URL: "fullscreenmedia.co"
 4. clicking 1st result redirects to fullscreen media website
+
+=======================
+
+use cucumber to check for authorized credentials.
+if comparisons == success
+    login success
+else
+    fail
