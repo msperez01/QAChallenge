@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8d8bd5-e11c-4eaa-89f9-5a5a987ad832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/p.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/p.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,7 +48,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="58" />
-          <entry key="html" value="796" />
+          <entry key="html" value="1275" />
           <entry key="js" value="2274" />
           <entry key="txt" value="465" />
         </counts>
@@ -57,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="58" />
-          <entry key="HTML" value="796" />
+          <entry key="HTML" value="1275" />
           <entry key="JavaScript" value="2274" />
           <entry key="PLAIN_TEXT" value="465" />
         </counts>
@@ -90,10 +89,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice/p.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="211">
+              <caret line="25" column="134" lean-forward="true" selection-start-line="25" selection-start-column="134" selection-end-line="25" selection-end-column="134" />
               <folding>
-                <element signature="e#171#548#0" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -586,7 +584,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="1120" />
+    <option name="width" value="1403" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -654,18 +652,18 @@
       <workItem from="1547792614327" duration="7880000" />
       <workItem from="1547837717702" duration="2081000" />
       <workItem from="1547840533223" duration="7147000" />
-      <workItem from="1548010697682" duration="5945000" />
+      <workItem from="1548010697682" duration="8866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23053000" />
+    <option name="totallyTimeSpent" value="25974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="896" height="832" extended-state="0" />
+    <frame x="-8" y="0" width="1122" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2915215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23091076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -814,10 +812,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/p.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="211">
+          <caret line="25" column="134" lean-forward="true" selection-start-line="25" selection-start-column="134" selection-end-line="25" selection-end-column="134" />
           <folding>
-            <element signature="e#171#548#0" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
