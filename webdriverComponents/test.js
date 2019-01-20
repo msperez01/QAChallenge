@@ -6,7 +6,7 @@
 
 //remote allows scripts to interact with the browser and the net returned information
 //3544
-// 1-18-19 error 10013 on geckodriver. port -4444 is apparently in used...also apparently a firewall issue
+// 1-18-19 error 10013 on geckodriver. port -4444 is apparently in use...also apparently a firewall issue
 const { remote } = require('webdriverio');
 
 (async () => {
