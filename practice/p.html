@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>100% Real Google Website</title>
+    <script>
+        var searchBox;
+        //google custom search api
+        (function() {
+            var cx = '014194669207971106930:lgbialt57ru';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
 
+        //i'm feeling lucky function
+        // document.getElementById("gsc-i-id1") == searchbox
+        function imFeelingLucky(){
+            if( document.getElementById("gsc-i-id1").value === "")
+                console.log("isEmpty bro");
+            else
+                console.log("test: " +  document.getElementById("gsc-i-id1").value);
+        }
+    </script>
 </head>
 <body>
-<script>
-    (function() {
-    var cx = '014194669207971106930:lgbialt57ru';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-})();
-</script>
-<gcse:search> </gcse:search>
+
+
 <img class="googleImage" src="https://www.festisite.com/static/partylogo/img/logos/google.png">
 <div class="searchArea">
-    <input class="searchBar" type="text" placeholder=" ">
+    <gcse:search> </gcse:search>
     <button class="searchButton" id="googleSearch"> Google Search </button>
-    <button class="searchButton" id="imFeelingLucky"> I'm Feeling Lucky </button>
+    <button class="searchButton" id="imFeelingLucky" onclick="imFeelingLucky()"> I'm Feeling Lucky </button>
 </div>
+
 <button class="loginButton" id="login"> Sign In</button>
+
 <style>
     img {  <!--google image -->
         width: 10%;
@@ -54,6 +67,14 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+
+    #gsc-i-id1{
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
     }
 </style>
 </body>
