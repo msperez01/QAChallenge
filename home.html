@@ -3,18 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>100% Real Google Website</title>
+    <script>
+        var searchBox;
+        //google custom search api
+        (function() {
+            var cx = '014194669207971106930:lgbialt57ru';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
 
+        //i'm feeling lucky function
+        // document.getElementById("gsc-i-id1") == searchbox
+        var randomLinks = new Array(); // contains a random assortment of websites
+        function imFeelingLucky(){
+            if( document.getElementById("gsc-i-id1").value === "")
+                luckyLink();
+            else {//replaces page by lucky page
+                if(document.getElementById("gsc-i-id1").value === "fullscreen" || document.getElementById("gsc-i-id1").value === "full") //fullscreen keyword -> fullscreenwebsite
+                    window.location.href = "https://fullscreenmedia.co/";
+                else{
+                    randomLinks[0]="https://stackoverflow.com/";
+                    randomLinks[1]="https://www.facebook.com/";
+                    randomLinks[2]="https://www.bing.com";
+                    randomLinks[3]="https://www.wikipedia.org/";
+                    window.location.href = randomLinks[Math.floor(Math.random()*randomLinks.length)];
+                }
+                console.log("test: " + document.getElementById("gsc-i-id1").value);
+            }
+        }
+
+        //used for imFeelingLucky button if there is no input
+        function luckyLink(){
+            randomLinks[0]="https://stackoverflow.com/";
+            randomLinks[1]="https://www.facebook.com/";
+            randomLinks[2]="https://fullscreenmedia.co/";
+            randomLinks[3]="https://www.wikipedia.org/";
+            randomLinks[4]="https://www.bing.com";
+            window.location.href = randomLinks[Math.floor(Math.random()*randomLinks.length)];
+        }
+    </script>
 </head>
 <body>
-<script src="home.js"></script>
+
+
 <img class="googleImage" src="https://www.festisite.com/static/partylogo/img/logos/google.png">
 <div class="searchArea">
-    <input class="searchBar" type="text" placeholder=" ">
     <gcse:search> </gcse:search>
-    <button class="searchButton" id="googleSearch"> Google Search </button>
-    <button class="searchButton" id="imFeelingLucky"> I'm Feeling Lucky </button>
+    <button class="searchButton" id="imFeelingLucky" onclick="imFeelingLucky()"> I'm Feeling Lucky </button>
 </div>
+
 <button class="loginButton" id="login"> Sign In</button>
+
 <style>
     img {  <!--google image -->
         width: 10%;
@@ -44,6 +87,14 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+
+    #gsc-i-id1{
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
     }
 </style>
 </body>
