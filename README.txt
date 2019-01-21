@@ -14,6 +14,7 @@ Steps for running local browser:
 ============================
 In development:
 1. Sign in authentication using cucumber.js
+    - Though Gherkin Language is self-explanatory, the functions bit is evading me.
 
 Remaining questions:
 1. I understand the concept behind webdriver, but how exactly do you implement it without looking at a tutorial?
