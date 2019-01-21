@@ -1,3 +1,5 @@
+!! MAIN FILE IS HOME.HTML !!
+
 Available functions:
 - General Google UI
 - Search Functions complete
