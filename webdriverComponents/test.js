@@ -18,7 +18,7 @@ const { remote } = require('webdriverio');
         }
     });
 
-    await browser.url('https://webdriver.io');
+    await browser.url('https://google.com');
 
     const title = await browser.getTitle();
     console.log('Title was: ' + title);
