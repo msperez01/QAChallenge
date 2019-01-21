@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce8d8bd5-e11c-4eaa-89f9-5a5a987ad832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DELETELATER.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriverComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/p.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdriverComponents/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/webdriverComponents/test.js" afterDir="false" />
-    </list>
+    <list default="true" id="ce8d8bd5-e11c-4eaa-89f9-5a5a987ad832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -632,16 +626,15 @@
       <workItem from="1547837717702" duration="2081000" />
       <workItem from="1547840533223" duration="7147000" />
       <workItem from="1548010697682" duration="10224000" />
-      <workItem from="1548023529431" duration="3102000" />
+      <workItem from="1548023529431" duration="3704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30434000" />
+    <option name="totallyTimeSpent" value="31036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="945" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2758242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
