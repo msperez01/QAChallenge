@@ -15,5 +15,5 @@ In development:
 1. Sign in authentication using cucumber.js
 
 Remaining questions:
-1. I understand the concept behind webdriver, but how exactly do you implement it?
+1. I understand the concept behind webdriver, but how exactly do you implement it without looking at a tutorial?
 
