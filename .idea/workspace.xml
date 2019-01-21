@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8d8bd5-e11c-4eaa-89f9-5a5a987ad832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,7 +48,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="641" />
-          <entry key="html" value="1275" />
+          <entry key="html" value="1365" />
           <entry key="js" value="2323" />
           <entry key="txt" value="1360" />
         </counts>
@@ -56,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="641" />
-          <entry key="HTML" value="1275" />
+          <entry key="HTML" value="1365" />
           <entry key="JavaScript" value="2323" />
           <entry key="PLAIN_TEXT" value="1360" />
         </counts>
@@ -86,13 +86,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="254">
+              <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
               <folding>
-                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="e#202#579#0" />
+                <element signature="e#593#621#0" />
+                <element signature="e#799#1700#0" />
+                <element signature="e#1792#2176#0" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -108,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -150,13 +153,13 @@
         <option value="$PROJECT_DIR$/geckodriverComponent.js" />
         <option value="$PROJECT_DIR$/home.js" />
         <option value="$PROJECT_DIR$/practice/p.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/authenticateGoogle.feature" />
         <option value="$PROJECT_DIR$/features/authenticateGoogle.feature" />
         <option value="$PROJECT_DIR$/step_definitions/authSteps.js" />
         <option value="$PROJECT_DIR$/webdriverComponents/test.js" />
         <option value="$PROJECT_DIR$/DELETELATER.txt" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -619,12 +622,12 @@
       <workItem from="1547837717702" duration="2081000" />
       <workItem from="1547840533223" duration="7147000" />
       <workItem from="1548010697682" duration="10224000" />
-      <workItem from="1548023529431" duration="4748000" />
+      <workItem from="1548023529431" duration="5045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32080000" />
+    <option name="totallyTimeSpent" value="32377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,21 +786,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <element signature="e#202#579#0" />
+            <element signature="e#593#621#0" />
+            <element signature="e#799#1700#0" />
+            <element signature="e#1792#2176#0" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

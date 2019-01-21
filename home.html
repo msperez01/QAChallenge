@@ -45,6 +45,11 @@
             randomLinks[4]="https://www.bing.com";
             window.location.href = randomLinks[Math.floor(Math.random()*randomLinks.length)];
         }
+
+        //sign in placeholder
+        function signIn(){
+            alert("To be implemented.");
+        }
     </script>
 </head>
 <body>
@@ -56,7 +61,7 @@
     <button class="searchButton" id="imFeelingLucky" onclick="imFeelingLucky()"> I'm Feeling Lucky </button>
 </div>
 
-<button class="loginButton" id="login"> Sign In</button>
+<button class="loginButton" id="login" onclick="signIn()"> Sign In</button>
 
 <style>
     img {  <!--google image -->
