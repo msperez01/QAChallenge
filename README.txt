@@ -9,6 +9,7 @@ Available functions:
 Steps for running local browser:
 1. Run geckodriver.exe in "../FullScreenQAChall/webdriverComponents"
 2. Run test.js 'node test.js' in same directory
+3. Run home.html in opened browser
 
 ============================
 In development:
